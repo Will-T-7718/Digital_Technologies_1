@@ -77,9 +77,9 @@ public class Program
 		
 		// saying if the game was a win or draw
 		if (flag == 1)
-			Console.WriteLine($"\n Player {(player % 2) + 1} wins");
+			Console.WriteLine($"Player {(player % 2) + 1} wins");
 		else
-			Console.WriteLine("\n Draw");
+			Console.WriteLine("Draw");
 		
 		Console.WriteLine();
 		
